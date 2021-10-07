@@ -1,7 +1,5 @@
 # 📖 Librarify. Creating an API with Symfony 5 📖
 
-<img src = "https://raw.githubusercontent.com/ger86/librarify-back/master/cover.jpg" alt = "Librarify. Creating an API with Symfony 5">
-
 ## Support me buying me a coffe
 
 [☕️ Buy me a coffe] (https://www.buymeacoffee.com/hsnylmz008)
