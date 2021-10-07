@@ -1,9 +1,5 @@
 # 📖 Librarify. Creating an API with Symfony 5 📖
 
-## Support me buying me a coffe
-
-[☕️ Buy me a coffe] (https://www.buymeacoffee.com/hsnylmz008)
-
 ## Description
 
 ** Librarify. Creating an API with Symfony 5 ** is a complete course on Symfony 5 in which I tell how to develop an API from scratch using the FOS Rest Bundle (the reasons for this decision are explained in episode number 5). This API will allow us to manage our personal library, that is, it will allow us to:
