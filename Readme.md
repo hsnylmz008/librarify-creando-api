@@ -4,7 +4,7 @@
 
 ## Support me buying me a coffe
 
-[☕️ Buy me a coffe](https://www.buymeacoffee.com/latteandcode)
+[☕️ Buy me a coffe](https://www.buymeacoffee.com/hsnylmz008)
 
 ## Descripción
 
@@ -38,8 +38,6 @@ Este curso sobre **Symfony 5** consta de los siguientes capítulos hasta la fech
 7. [Capítulo 7. DTO's y carga de imágenes](https://youtu.be/Jw-vTsBJ30c)
 8. [Capítulo 8. Servicios y PHP Unit](https://youtu.be/qLoaGwWuvIM)
 9. [Capítulo 9. Categorías y Collection Type](https://youtu.be/akrxXdp9LdQ)
-
-🗂 Lista completa de reproducción: [https://www.youtube.com/playlist?list=PLC8ntN5__iMIAy9V6XO37Dx_bQ5V7zc-h](https://www.youtube.com/playlist?list=PLC8ntN5__iMIAy9V6XO37Dx_bQ5V7zc-h)
 
 ## Ejecutar el proyecto
 
