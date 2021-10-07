@@ -1,0 +1,24 @@
+App\Entity\Book:
+    attributes:
+        id:
+            groups: ['book']
+        title:
+            groups: ['book']
+        image:
+            groups: ['book']
+        categories:
+            groups: ['book']
+        authors:
+            groups: ['book']
+        description:
+            groups: ['book']
+        score:
+            groups: ['book']
+        readAt:
+            groups: ['book']
+        createdAt:
+            groups: ['book']
+        isbn:
+            groups: ['book']
+
+

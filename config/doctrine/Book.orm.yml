@@ -1,0 +1,85 @@
+App\Entity\Book:
+    type: entity
+    table: book
+    repositoryClass: App\Repository\BookRepository
+    id:
+        id:
+            type: uuid
+    fields:
+        title:
+            type: string
+            scale: 0
+            length: 255
+            unique: false
+            nullable: false
+            precision: 0
+        image:
+            type: string
+            scale: 0
+            length: 512
+            unique: false
+            nullable: true
+            precision: 0
+        description:
+            type: text
+            scale: 0
+            unique: false
+            nullable: true
+            precision: 0
+        createdAt:
+            type: datetime
+            nullable: true
+        readAt:
+            type: date
+            nullable: true
+    embedded: 
+        score:
+            class: App\Entity\Book\Score
+    oneToOne:
+        isbn:
+            targetEntity: App\Entity\Isbn
+            cascade: 
+                - 'persist'
+            fetch: LAZY
+            mappedBy: book
+            inversedBy: null
+    manyToMany:
+        categories:
+            targetEntity: App\Entity\Category
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: books
+            joinTable:
+                name: book_category
+                joinColumns:
+                    -
+                        name: book_id
+                        referencedColumnName: id
+                        onDelete: CASCADE
+                inverseJoinColumns:
+                    -
+                        name: category_id
+                        referencedColumnName: id
+                        onDelete: CASCADE
+            orderBy: null
+        authors:
+            targetEntity: App\Entity\Author
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: books
+            joinTable:
+                name: book_author
+                joinColumns:
+                    -
+                        name: book_id
+                        referencedColumnName: id
+                        onDelete: CASCADE
+                inverseJoinColumns:
+                    -
+                        name: author_id
+                        referencedColumnName: id
+                        onDelete: CASCADE
+            orderBy: null
+    lifecycleCallbacks: {  }
